@@ -1,8 +1,10 @@
 
-1.//create user table with user with email,username,roll number,password
+---1.//create user table with user with email,username,roll number,password
 
 CREATE DATABASE vaishu
 USE `vaishu`;
+
+--creating an user table
 CREATE TABLE user(
 	`id` int(11) NOT NULL AUTO_INCREMENT,
   	`username` varchar(50) NOT NULL,
