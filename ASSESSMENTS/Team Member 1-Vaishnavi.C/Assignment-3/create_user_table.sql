@@ -14,5 +14,5 @@ CREATE TABLE user(
   	`email` varchar(100) NOT NULL,
     PRIMARY KEY (`id`)
 ) 
-select * from accounts;
+select * from user;
 
